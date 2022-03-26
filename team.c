@@ -1,5 +1,5 @@
 //
-// EECS2031 team.c
+// 
 //
 // Program for maintaining a personal team.
 //
@@ -7,7 +7,6 @@
 // Uses a linked list to hold the team players.
 //
 // Author: Mohammed Ahmed
-// Student Info: 214396428
 
 
 #include <stdio.h>
@@ -37,9 +36,9 @@ struct node *head; //head pointer
 // Linked List Function Declarations
 //
 // Functions that modify the linked list.
-//   Declare your linked list functions here.
+//  
 //
-//   ADD STATEMENT(S) HERE
+//   
 
 struct node *makePlayer(struct node * head, char  familyName[], char  firstName[], char position, int value); //method to add player
 bool sameFamily(struct node * head, char fam[]);
